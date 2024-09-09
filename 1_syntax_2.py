@@ -8,6 +8,7 @@ def get_int(prompt):
         except ValueError:
             print("Not an integer")
 
+x = get_int("x: ")
 
 ############################
 #### Truncation ####
@@ -28,7 +29,7 @@ print(z)   # 0.33333333333  python get back with a float
 x = int(input("x: "))  # 1
 y = int(input("y: "))  # 3
 z = x / y   # int / int
-print(f"z:.50f")   # print float with 40 decimal points
+print(f"{z:.50f}")   # print float with 40 decimal points
 
 ############################
 #### integer overflow ####
