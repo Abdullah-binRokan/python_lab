@@ -52,4 +52,23 @@ elif x > y:
 else:
     print("x is equal to y")
 
+############################
+#### Loops ####
+############################ 
+i = 0
+while i < 3:
+    print("Meow")
+    i += 1
 
+# for loop
+for i in [1, 2, 3]: # bad design (what if wanted to do it 50 times?)
+    print("hello, world")
+
+# pythonic way (the way to do it on based on consensus in the python community)
+for i in range(3):  # range function that returns range of values starting from 0
+    print("Meow")
+
+# infinite loop
+while True:
+    print("Meow")
+    
