@@ -1,4 +1,5 @@
 before = input("Before: ")
-print("Afer: ")    # it will add new line by default
+print("Afer:   ", end="")  # added the named parameters to alter default behavior
 for c in before:
-    print(c.upper())   # it will add new line by default
+    print(c.upper(), end="")  # end="" will alter the default new line behaivor
+print()
