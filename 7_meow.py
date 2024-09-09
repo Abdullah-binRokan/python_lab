@@ -3,7 +3,7 @@ def main():
         meow()
 
 
-def meow(n):
+def meow():
     print("meow")
 
 
