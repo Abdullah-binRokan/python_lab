@@ -71,6 +71,17 @@ for i in range(3):  # range function that returns range of values starting from 
 # infinite loop
 while True:
     print("Meow")
+
+# for else loop
+names = ["Khalid", "Fahad"]
+name = input("name: ")
+
+for n in names:
+    if name == n:
+        print("Found")
+        break
+else:
+    print("Not found")
     
 ############################
 #### functions ####
