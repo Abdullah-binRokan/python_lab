@@ -72,3 +72,10 @@ for i in range(3):  # range function that returns range of values starting from 
 while True:
     print("Meow")
     
+############################
+#### functions ####
+############################ 
+def meow(n):
+    for i in range(n):
+        print("meow")
+

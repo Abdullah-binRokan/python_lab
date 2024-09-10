@@ -3,7 +3,7 @@ def main():
 
     for _ in range(n):
         print("?", end="")
-    
+
     print()
 
 

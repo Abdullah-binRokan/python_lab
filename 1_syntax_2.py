@@ -41,3 +41,16 @@ print(f"{z:.50f}")   # print float with 40 decimal points
 # of int & end up going back to 0 or negative
 # in Python this problem doesn't exist
 
+############################
+####  print ####
+############################
+
+# alter default behaivior of \n by using named parameter
+print("alter default behaivior by named param", end="")
+
+# printing ? four times
+print("?" * 4)
+
+# you can use code inside {} with f string
+n = 2
+print(f"n * 2 = {n * 2}")
