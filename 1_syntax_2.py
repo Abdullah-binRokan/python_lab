@@ -7,6 +7,8 @@ def get_int(prompt):
             return int(input(prompt))
         except ValueError:
             print("Not an integer")
+            # pass
+            # you can use pass instead of print to silently try again
 
 x = get_int("x: ")
 
